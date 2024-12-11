@@ -1,7 +1,7 @@
 
 import java.util.Date;
 
-public class Product {
+public class Product extend Person{
 
     private String category;
     private Date productionDate;
