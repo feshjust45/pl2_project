@@ -1,56 +1,44 @@
 
-import java.util.Date;
+public class Person {
 
-public class Product {
+    // private data 
+    private String name;
+    private String email;
+    private String contactInfo;
 
-    private String category;
-    private Date productionDate;
-    private Date ExpDate;
-    private int quantity;
-
-    /*constructor*/
-    public Product(String category, Date productionDate, Date ExpDate, int quantity) {
-        this.category = category;
-        this.productionDate = productionDate;
-        this.ExpDate = ExpDate;
-        this.quantity = quantity;
+    /*constructor */
+    public Person(String name, String email, String contactInfo) {
+        this.name = name;
+        this.email = email;
+        this.contactInfo = contactInfo;
     }
 
-    //getters and setters 
-    /*category getter and setter*/
-    public String getCategory() {
-        return category;
+    //getter and setter  
+    /*name getter and setter  */
+    public String getName() {
+        return name;
     }
 
-    public void setCategoty() {
-        this.category = category;
+    public void setName() {
+        this.name = name;
     }
 
-    /*productionDate getter and setter*/
-    public Date getproductionDate() {
-        return productionDate;
+    /* email getter and setter */
+    public String getEmail() {
+        return email;
     }
 
-    public void setproductionDate() {
-        this.productionDate = productionDate;
+    public void setEmail() {
+        this.email = email;
     }
 
-    /*expdate getter and setters */
-    public Date getExpDate() {
-        return ExpDate;
+    /* contactInfo getter and setter */
+    public String getcontactInfo() {
+        return name;
     }
 
-    public void setExpDate() {
-        this.ExpDate = ExpDate;
-    }
-
-    /*qauntity getter and setter*/
-    public int getquantity() {
-        return quantity;
-    }
-
-    public void setquantity() {
-        this.quantity = quantity;
+    public void setcontactInfo() {
+        this.contactInfo = contactInfo;
     }
 
 }
